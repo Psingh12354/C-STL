@@ -1,5 +1,6 @@
 # C-STL
 Here I upload my C++ STL program which i have done during Covid-19.
+# These Note are from diffrent sites which i copy it here for my learning.
 
 # What are Containers in STL?
 Containers Library in STL gives us the Containers, which in simplest words, can be described as the objects used to contain data or rather collection of object. Containers help us to implement and replicate simple and complex data structures very easily like arrays, list, trees, associative arrays and many more.
@@ -57,3 +58,48 @@ And that's it! we have a list, and not just that, the containers library also gi
 Thus you can see that it is incredibly easy to implement data structures by using Container library.
 
 Site Link : https://www.studytonight.com/cpp/stl/stl-overview-of-containers#:~:text=Containers%20Library%20in%20STL%20gives,associative%20arrays%20and%20many%20more.
+
+# PAIR Template in STL
+NOTE: Although Pair and Tuple are not actually the part of container library but we'll still discuss them as they are very commonly required in programming competitions and they make certain things very easy to implement.
+ # SYNTAX of pair is:
+```
+pair<T1,T2>  pair1, pair2 ;
+```
+The above code creates two pairs, namely pair1 and pair2, both having first object of type T1 and second object of type T2.
+
+Now T1 will be referred as first and T2 will be referred as second member of pair1 and pair2.
+
+# Pair Template: Some Commonly used Functions
+Here are some function for pair template :
+
+# Operator = : assign values to a pair.
+# swap : swaps the contents of the pair.
+# make_pair() : create and returns a pair having objects defined by parameter list.
+# Operators( == , != , > , < , <= , >= ) : lexicographically compares two pairs.
+
+# Program demonstrating PAIR Template
+```
+#include <iostream>
+
+using namespace std;    
+    
+int main ()
+{
+   pair<int,int> pair1, pair3;    //creats pair of integers
+   pair<int,string> pair2;    // creates pair of an integer an a string
+    
+   pair1 = make_pair(1, 2);     // insert 1 and 2 to the pair1
+   pair2 = make_pair(1, "Studytonight") // insert 1 and "Studytonight" in pair2
+   pair3 = make_pair(2, 4)
+   cout<< pair1.first << endl;  // prints 1, 1 being 1st element of pair1
+   cout<< pair2.second << endl; // prints Studytonight
+
+   if(pair1 == pair3)
+        cout<< "Pairs are equal" << endl;
+   else
+        cout<< "Pairs are not equal" << endl;
+   
+   return 0;
+}
+```
+Site Link : https://www.studytonight.com/cpp/stl/stl-pair-template
