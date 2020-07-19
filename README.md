@@ -1,5 +1,4 @@
 # C-STL
-Here I upload my C++ STL program which i have done during Covid-19.
 # These Note are from diffrent sites which i copy it here for my learning.
 
 # What are Containers in STL?
@@ -9,13 +8,13 @@ The containers are implemented as generic class templates, means that a containe
 
 Following are some common containers :
 
-### vector : replicates arrays
-### queue : replicates queues
-### stack : replicates stack
-### priority_queue : replicates heaps
-### list : replicates linked list
-### set : replicates trees
-### map : associative arrays
+### * vector : replicates arrays
+### * queue : replicates queues
+### * stack : replicates stack
+### * priority_queue : replicates heaps
+### * list : replicates linked list
+### * set : replicates trees
+### * map : associative arrays
 
 # Classification of Containers in STL
 Containers are classified into four categories :
