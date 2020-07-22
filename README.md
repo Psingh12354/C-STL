@@ -8,13 +8,13 @@ The containers are implemented as generic class templates, means that a containe
 
 Following are some common containers :
 
-### * vector : replicates arrays
-### * queue : replicates queues
-### * stack : replicates stack
-### * priority_queue : replicates heaps
-### * list : replicates linked list
-### * set : replicates trees
-### * map : associative arrays
+- vector : replicates arrays
+- queue : replicates queues
+- stack : replicates stack
+- priority_queue : replicates heaps
+- list : replicates linked list
+- set : replicates trees
+- map : associative arrays
 
 # Classification of Containers in STL
 Containers are classified into four categories :
