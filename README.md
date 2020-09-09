@@ -199,7 +199,7 @@ In the above code, T is a template argument that accepts different data types (i
 You can also use keyword typename instead of class in the above example.
 When, an argument of a data type is passed to someFunction( ), compiler generates a new version of someFunction() for the given data type.
 
-    
+### Code    
 ```
 #include<iostream>
 using namespace std;
@@ -228,7 +228,6 @@ int main()
 
 ## Pair Template
 
-```
 /*Templates are powerful features of C++ which allows you to write generic programs. In simple terms, you can create a single function or a class to work with different data types using templates.
 Templates are often used in larger codebase for the purpose of code reusability and flexibility of the programs.
 The concept of templates can be used in two different ways:
@@ -256,6 +255,7 @@ You can also use keyword typename instead of class in the above example.
 When, an argument of a data type is passed to someFunction( ), compiler generates a new version of someFunction() for the given data type.
 */
 
+```
 #include<iostream>
 using namespace std;
 template <class Temp>
@@ -348,7 +348,6 @@ int main()
 }
 ```
 ##
-```
 /*
 Array is collection of similar element
 STL has predefine class array
@@ -360,6 +359,7 @@ template<place holder>
 class array{
 };
 */
+```
 #include<iostream>
 #include<array>
 using namespace std;
