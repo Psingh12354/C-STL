@@ -2,7 +2,7 @@
 ### These Note are from diffrent sites which i copy it here for my learning.
 
 # What are Containers in STL?
-Containers Library in STL gives us the Containers, which in simplest words, can be described as the objects used to contain data or rather collection of object. Containers help us to implement and replicate simple and complex data structures very easily like arrays, list, trees, associative arrays and many more.
+<b>Containers Library in STL gives us the Containers</b>, which in simplest words, can be described as the objects used to contain data or rather collection of object. Containers help us to implement and replicate simple and complex data structures very easily like arrays, list, trees, associative arrays and many more.
 
 The containers are implemented as generic class templates, means that a container can be used to hold different kind of objects and they are dynamic in nature!
 
