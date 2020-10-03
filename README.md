@@ -420,3 +420,9 @@ cout<<"\n";
 cout<<data1.size();
 }
 ```
+
+
+
+
+#### After learning BASIC DATA-STRUCTURES AND ALGORITHMS, one can Start Competitative programming.
+Here is a refernce on getting started with the competitative  progaramming: http://sportprogramming.blogspot.com/2014/07/getting-started-with-sport-of.html
