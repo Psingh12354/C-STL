@@ -16,15 +16,15 @@ Following are some common containers :
 - set : replicates trees
 - map : associative arrays
 
-# Classification of Containers in STL
+## Classification of Containers in STL
 Containers are classified into four categories :
 
-# Sequence containers : Used to implement data structures that are sequential in nature like arrays(array) and linked list(list).
-# Associative containers : Used to implement sorted data structures such as map, set etc.
-# Unordered associative containers : Used to implement unsorted data structures.
-# Containers adaptors : Used to provide different interface to the sequence containers.
+### Sequence containers : Used to implement data structures that are sequential in nature like arrays(array) and linked list(list).
+### Associative containers : Used to implement sorted data structures such as map, set etc.
+### Unordered associative containers : Used to implement unsorted data structures.
+### Containers adaptors : Used to provide different interface to the sequence containers.
 
-# Using Container Library in STL
+## Using Container Library in STL
 Below is an example of implementing linked list, first by using structures and then by list containers.
 ```
 #include <iostream>
@@ -58,9 +58,9 @@ Thus you can see that it is incredibly easy to implement data structures by usin
 
 Site Link : https://www.studytonight.com/cpp/stl/stl-overview-of-containers#:~:text=Containers%20Library%20in%20STL%20gives,associative%20arrays%20and%20many%20more.
 
-# PAIR Template in STL
+## PAIR Template in STL
 NOTE: Although Pair and Tuple are not actually the part of container library but we'll still discuss them as they are very commonly required in programming competitions and they make certain things very easy to implement.
- # SYNTAX of pair is:
+ ## SYNTAX of pair is:
 ```
 pair<T1,T2>  pair1, pair2 ;
 ```
@@ -68,15 +68,15 @@ The above code creates two pairs, namely pair1 and pair2, both having first obje
 
 Now T1 will be referred as first and T2 will be referred as second member of pair1 and pair2.
 
-# Pair Template: Some Commonly used Functions
+## Pair Template: Some Commonly used Functions
 Here are some function for pair template :
 
-# Operator = : assign values to a pair.
-# swap : swaps the contents of the pair.
-# make_pair() : create and returns a pair having objects defined by parameter list.
-# Operators( == , != , > , < , <= , >= ) : lexicographically compares two pairs.
+### Operator = : assign values to a pair.
+### swap : swaps the contents of the pair.
+### make_pair() : create and returns a pair having objects defined by parameter list.
+### Operators( == , != , > , < , <= , >= ) : lexicographically compares two pairs.
 
-# Program demonstrating PAIR Template
+## Program demonstrating PAIR Template
 ```
 #include <iostream>
 
@@ -103,7 +103,7 @@ int main ()
 ```
 Site Link : https://www.studytonight.com/cpp/stl/stl-pair-template
 
-# C++ My Codes : 
+## C++ My Codes : 
 
 ## Calculator 
 ``` 
@@ -347,7 +347,9 @@ int main()
 	return 0;
 }
 ```
-##
+## Array
+
+```
 /*
 Array is collection of similar element
 STL has predefine class array
@@ -359,6 +361,8 @@ template<place holder>
 class array{
 };
 */
+```
+## Code
 ```
 #include<iostream>
 #include<array>
