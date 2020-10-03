@@ -228,7 +228,7 @@ int main()
 
 ## Pair Template
 
-/*Templates are powerful features of C++ which allows you to write generic programs. In simple terms, you can create a single function or a class to work with different data types using templates.
+Templates are powerful features of C++ which allows you to write generic programs. In simple terms, you can create a single function or a class to work with different data types using templates.
 Templates are often used in larger codebase for the purpose of code reusability and flexibility of the programs.
 The concept of templates can be used in two different ways:
 Function Templates
@@ -253,7 +253,7 @@ T someFunction(T arg)
 In the above code, T is a template argument that accepts different data types (int, float), and class is a keyword.
 You can also use keyword typename instead of class in the above example.
 When, an argument of a data type is passed to someFunction( ), compiler generates a new version of someFunction() for the given data type.
-*/
+
 
 ```
 #include<iostream>
